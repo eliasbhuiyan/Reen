@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.common_head {
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.common_head h2 {
+    margin-bottom: 30px;
+    color: #506a85;
+    font-size: 44px;
+}
+
+.common_head p {
+    font-size: 22px;
+    color: #73879c;
+    line-height: 34px;
+}
+
+/* =====================================
+       MENU PART START
+===================================== */
+#main_menu {
+    height: 110px;
+}
+
+#main_menu .col_left {
+    width: 30%;
+}
+
+#main_menu .menu_logo {
+    width: 170px;
+    line-height: 110px;
+}
+
+#main_menu .menu_row {
+    display: flex
+}
+
+#main_menu .col_right {
+    width: 70%;
+}
+
+#main_menu .col_right ul {
+    line-height: 110px;
+    float: right;
+    display: flex;
+    gap: 30px;
+
+}
+
+#main_menu .col_right ul li a {
+    color: #506a85;
+}
+
+/* =====================================
+       MENU PART END
+===================================== */
+/* =====================================
+       BANNER PART START
+===================================== */
+#banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    height: 880px;
+    margin-bottom: 120px;
+}
+
+#banner .text {
+    width: 1170px;
+    text-align: center;
+    padding-top: 280px;
+}
+
+#banner .text h1 {
+    font-size: 78px;
+    font-weight: 400;
+    color: #f1f1f1f1;
+    margin-bottom: 20px;
+}
+
+#banner .text p {
+    color: #a3b1bf;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 65px;
+}
+
+#banner .text a {
+    width: 295px;
+    color: white;
+    background-color: #00bc9c;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* =====================================
+       BANNER PART END
+===================================== */
+/* =====================================
+       RESPONSIVE PART START
+===================================== */
+#responsive .res_row {
+    display: flex;
+}
+
+#responsive .res_item {
+    width: 365px;
+    margin-bottom: 125px;
+    display: flex;
+    margin-right: 55px;
+}
+
+#responsive .res_item:nth-child(3) {
+    margin-right: 0;
+}
+
+#responsive .res_item i {
+    font-size: 60px;
+    color: #00bc9c;
+    margin-right: 30px;
+}
+
+#responsive .res_item h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #506a85;
+    margin-bottom: 30px;
+}
+
+#responsive .res_item p {
+    font-size: 16px;
+    color: #73879c;
+    line-height: 25px;
+}
+
+/* =====================================
+       RESPONSIVE PART END
+===================================== */
+/* =====================================
+       CHECK OUT PART START
+===================================== */
+#checkout {
+    height: 1270px;
+    background: #f2f5f7;
+    margin-bottom: 120px;
+}
+
+#checkout .common_head {
+    padding-top: 125px;
+}
+
+#checkout .check_items .row_1 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+#checkout .check_items .row_1 .col_item {
+    height: 500px;
+    width: 570px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#checkout .check_items .row_1 .col_item h3 {
+    color: #506a85;
+    font-size: 20px;
+    margin: 30px 0 10px;
+}
+
+#checkout .check_items .row_1 .col_item p {
+    font-size: 14px;
+    color: #73879c;
+}
+
+#checkout .check_items .row_2 {
+    display: flex;
+    gap: 30px;
+}
+
+#checkout .check_items .row_2 .col_item {
+    width: 270px;
+}
+
+/* =====================================
+       CHECK OUT PART END
+===================================== */
+/* =====================================
+       WORK PART START
+===================================== */
+#work {
+    margin-bottom: 120px;
+}
+
+#work .common_head a {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: #00bc9c;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
+/* =====================================
+       WORK PART END
+===================================== */
+/* =====================================
+       FOOTER PART START
+===================================== */
+#footer {
+    background: #2f4052;
+}
+
+#footer .foot_row {
+    display: flex;
+    gap: 45px;
+    padding: 70px 0;
+}
+
+#footer .foot_row .col_logo {
+    width: 265px;
+}
+
+#footer .foot_row .col_logo .logo {
+    width: 130px;
+}
+
+#footer .foot_row h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#footer .foot_row .col_logo p {
+    font-size: 14px;
+    color: #a3b1bf;
+    line-height: 22px;
+    margin: 20px 0 25px;
+}
+
+#footer .foot_row .col_logo a {
+    font-size: 15px;
+    color: #a3b1bf;
+}
+
+
+#footer .foot_row .col_works ul {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+#footer .foot_row .col_touch p {
+    width: 233px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-bottom: 20px;
+}
+
+#footer .foot_row .col_touch p:nth-child(3) {
+    margin-bottom: 5px;
+}
+
+#footer .foot_row .col_touch a {
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-bottom: 5px;
+}
+
+#footer .foot_row .col_updates p {
+    width: 260px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-bottom: 20px;
+}
+
+#footer .foot_row .subscribe input {
+    border: 0;
+    padding: 10px;
+}
+
+#footer .foot_row .subscribe button {
+    border: 0;
+    padding: 10px;
+    background-color: #00bc9c;
+}
+
+#footer .foot_row .subscribe {
+    display: flex;
+}
+
+.footer_bottom {
+    background: #283645;
+    height: 80px;
+}
+
+.footer_bottom .row_bottom .col_left {
+    width: 30%;
+}
+
+.footer_bottom .row_bottom .col_left p {
+    color: #707e8c;
+    font-size: 14px;
+    line-height: 80px;
+}
+
+.footer_bottom .row_bottom .col_right {
+    width: 70%;
+}
+
+.footer_bottom .row_bottom {
+    display: flex;
+}
+
+.footer_bottom .row_bottom ul {
+    display: flex;
+    gap: 20px;
+    line-height: 80px;
+    float: right;
+}
+
+.footer_bottom .row_bottom ul li a {
+    color: #707e8c;
+}
+
+/* =====================================
+       FOOTER PART END
+===================================== */
