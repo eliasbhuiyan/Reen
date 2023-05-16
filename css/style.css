@@ -55,6 +55,7 @@ img {
 ===================================== */
 #main_menu {
     height: 110px;
+    background: #00bc9c;
 }
 
 #main_menu .col_left {
